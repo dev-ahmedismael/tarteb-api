@@ -21,6 +21,7 @@ class UserController extends Controller
         return response()->json([
             'token' => $token,
             'user' => $user,
+            'message' => 'تم تسجيل الدخول بنجاح.'
         ]);
     }
 
